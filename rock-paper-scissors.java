@@ -14,5 +14,9 @@ public class RockPaperScissors {
                 break;
         }
         System.out.println(playerMove + " is not a valid move.");
+
+        if (playerMove.equals(computerMove)) {
+            System.out.println("The game was a tie!");
+        }
     }
 }
