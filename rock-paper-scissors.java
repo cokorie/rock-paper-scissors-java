@@ -50,6 +50,8 @@ public class RockPaperScissors {
             if (!playAgain.equals("Y")) {
                 break;
             }
+
+            scanner.close();
         }
     }
 }
