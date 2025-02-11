@@ -7,7 +7,7 @@ public class RockPaperScissors {
 
     Scanner scanner = new Scanner(System.in);
     while(true) {
-        String rps = {"R", "P", "S"};
+        String rps = {"r", "P", "S"};
         String computerMove = rps[new Random().nextInt(rps.length)];
 
         String playerMove;
