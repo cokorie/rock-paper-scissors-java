@@ -18,10 +18,10 @@ public class RockPaperScissors {
                 if(playerMove.equals("r") || playerMove.equals("p") || playerMove.equals("s"))
                     break;
             }
-            System.out.println(playerMove + " is not a valid move! Enter valid response.");
+            System.out.println(playerMove + " is not a valid move! Please enter a valid response.");
 
             if (playerMove.equals(computerMove)) {
-                System.out.println("Tie game.");
+                System.out.println("TIE!");
             }
             else if (playerMove.equals("r")) {
                 if (computerMove.equals("p")) {
