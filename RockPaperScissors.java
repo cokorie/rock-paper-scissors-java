@@ -21,7 +21,7 @@ public class RockPaperScissors {
             System.out.println(playerMove + " is not a valid move! Please enter a valid response.");
 
             if (playerMove.equals(computerMove)) {
-                System.out.println("Tie game.");
+                System.out.println("TIE.");
             }
             else if (playerMove.equals("r")) {
                 if (computerMove.equals("p")) {
