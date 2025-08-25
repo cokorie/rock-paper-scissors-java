@@ -31,7 +31,7 @@ public class RockPaperScissors {
                 }
             }
 
-            else if (playerMove.equals("P")) {
+            else if (playerMove.equals("p")) {
                 if (computerMove.equals("s")) {
                     System.out.println("You lose!");
                 } else if (computerMove.equals("r")) {
