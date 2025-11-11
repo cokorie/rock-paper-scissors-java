@@ -47,7 +47,7 @@ public class RockPaperScissors {
                 }
             }
 
-            System.out.println("PLAY AGAIN? (Y/N)");
+            System.out.println("PLAY AGAIN? (y/N)");
             String playAgain = scanner.nextLine();
 
             if (!playAgain.equals("Y")) {
