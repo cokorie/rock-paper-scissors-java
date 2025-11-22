@@ -15,7 +15,7 @@ public class RockPaperScissors {
         while(true) {
                 System.out.println("Please enter your move: (r, p, or s)");
                 playerMove = scanner.nextLine();
-                if(playerMove.equals("R") || playerMove.equals("p") || playerMove.equals("s"))
+                if(playerMove.equals("r") || playerMove.equals("p") || playerMove.equals("s"))
                     break;
             }
             System.out.println(playerMove + " is not a valid move! Please enter a valid response.");
