@@ -24,7 +24,7 @@ public class RockPaperScissors {
                 System.out.println("Tie game.");
             }
             else if (playerMove.equals("r")) {
-                if (computerMove.equals("p")) {
+                if (computerMove.equals("P")) {
                     System.out.println("You lose!");
                 } else if (computerMove.equals("s")) {
                     System.out.println("You win!");
